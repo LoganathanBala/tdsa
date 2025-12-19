@@ -31,7 +31,7 @@ function Home() {
           </div>
         </div>          
 
-        <div className="mobile flex flex-col w-full p-4 items-center justify-center text-center bg-white sm:hidden">
+        <div className="mobile flex flex-col w-full p-4 pb-0 items-center justify-center text-center bg-white sm:hidden">
           <h1 className="text-black text-2xl font-extrabold uppercase sm:text-5xl pb-4">
             Trichirappalli District Silambatta Kazhgam
           </h1>
