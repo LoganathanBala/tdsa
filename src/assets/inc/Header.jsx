@@ -102,8 +102,8 @@ function Header() {
                           </Link>
                         </li>
                         <li className="hover:bg-blue-500 hover:text-white p-2 py-4 cursor-pointer transition hover:transition-all">
-                          <Link to="/members" className="text-md text-blue-900">
-                            Members
+                          <Link to="/banners" className="text-md text-blue-900">
+                            Banners
                           </Link>
                         </li>
                       </ul>

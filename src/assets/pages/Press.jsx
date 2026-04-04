@@ -2,7 +2,7 @@ import DotGrid from "../../components/DotGrid"
 import Header from "../inc/Header";
 import Footer from "../inc/Footer";
 
-function About() {
+function Press() {
   return (
     <>
       <Header />
@@ -26,4 +26,4 @@ function About() {
   );
 }
 
-export default About;
+export default Press;
