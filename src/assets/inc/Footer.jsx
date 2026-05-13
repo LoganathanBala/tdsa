@@ -21,14 +21,14 @@ function Footer() {
         <div className="footer-menu w-full flex flex-col px-4 sm:w-1/3">
             <h3 className="text-xl font-bold text-white pb-2 sm:text-lg">Links</h3>
             <ul className="list-none grid grid-cols-2 gap-2 sm:gap-1">
-                <li className=""><a href="#" className="relative inline-block text-lg text-white sm:text-base">Home</a></li>
-                <li className=""><a href="#" className="relative inline-block text-lg text-white sm:text-base">About Us</a></li>
-                <li className=""><a href="#" className="relative inline-block text-lg text-white sm:text-base">Board of Members</a></li>
-                <li className=""><a href="#" className="relative inline-block text-lg text-white sm:text-base">Members</a></li>
-                <li className=""><a href="#" className="relative inline-block text-lg text-white sm:text-base">Press</a></li>
-                <li className=""><a href="#" className="relative inline-block text-lg text-white sm:text-base">Media</a></li>
-                <li className=""><a href="#" className="relative inline-block text-lg text-white sm:text-base">Join Us</a></li>
-                <li className=""><a href="#" className="relative inline-block text-lg text-white sm:text-base">Contact Us</a></li>
+                <li className=""><a href="#" className="relative inline-block text-lg text-white sm:">Home</a></li>
+                <li className=""><a href="#" className="relative inline-block text-lg text-white sm:">About Us</a></li>
+                <li className=""><a href="#" className="relative inline-block text-lg text-white sm:">Board of Members</a></li>
+                <li className=""><a href="#" className="relative inline-block text-lg text-white sm:">Members</a></li>
+                <li className=""><a href="#" className="relative inline-block text-lg text-white sm:">Press</a></li>
+                <li className=""><a href="#" className="relative inline-block text-lg text-white sm:">Media</a></li>
+                <li className=""><a href="#" className="relative inline-block text-lg text-white sm:">Join Us</a></li>
+                <li className=""><a href="#" className="relative inline-block text-lg text-white sm:">Contact Us</a></li>
             </ul>
         </div>
         <div className="w-full px-4 sm:px-0 sm:w-1/3">

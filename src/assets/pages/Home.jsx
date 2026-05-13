@@ -56,7 +56,7 @@ function Home() {
             <h3 className="text-4xl font-bold text-blue-950 pb-4">
               Our Mission
             </h3>
-            <p className="text-base font-medium text-blue-950">
+            <p className=" font-medium text-blue-950">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s, when an unknown printer took a galley of
@@ -73,7 +73,7 @@ function Home() {
           <h4 className="worksans text-2xl font-bold text-blue-950 text-center pb-2">
             National Success. Proven Results
           </h4>
-          <p className="text-base text-blue-950 font-medium w-full text-center mb-8 md:px-50">
+          <p className=" text-blue-950 font-medium w-full text-center mb-8 md:px-50">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry.
           </p>          
@@ -112,7 +112,7 @@ function Home() {
             </div>
           </div>
           <div className="mr-auto ml-auto w-full text-center my-8">
-            <button className="bg-sky-500 rounded-md text-white text-base font-medium px-8 py-2 cursor-pointer transition hover:bg-blue-950">
+            <button className="bg-sky-500 rounded-md text-white  font-medium px-8 py-2 cursor-pointer transition hover:bg-blue-950">
               Join Us
             </button>
           </div>
@@ -125,13 +125,13 @@ function Home() {
           <h4 className="worksans text-2xl text-white font-bold text-center pb-2">
             Building Opportunity, Developing Champions
           </h4>
-          <p className="text-base text-white font-medium w-full text-center pb-4 sm:px-0 md:px-10 lg:px-50">
+          <p className=" text-white font-medium w-full text-center pb-4 sm:px-0 md:px-10 lg:px-50">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
             ever since the 1500s, when an unknown printer took a galley of type
             and scrambled it to make a type specimen book.
           </p>
-          <p className="text-base text-white font-medium w-full text-center sm:px-0 md:px-10 lg:px-50">
+          <p className=" text-white font-medium w-full text-center sm:px-0 md:px-10 lg:px-50">
             It has survived not only five centuries, but also the leap into
             electronic typesetting, remaining essentially unchanged. It was
             popularised in the 1960s with the release of Letraset sheets
@@ -140,7 +140,7 @@ function Home() {
             Ipsum.
           </p>
           <div className="mr-auto ml-auto w-full text-center mt-8">
-            <button className="bg-sky-500 rounded-md text-white text-base font-medium px-8 py-2 cursor-pointer transition hover:bg-blue-950">
+            <button className="bg-sky-500 rounded-md text-white  font-medium px-8 py-2 cursor-pointer transition hover:bg-blue-950">
               About More
             </button>
           </div>
@@ -152,7 +152,7 @@ function Home() {
             <h4 className="worksans text-2xl text-blue-950 font-bold pb-2 text-center sm:text-left">
               Latest News
             </h4>
-            <p className="text-base font-medium text-blue-950 text-center sm:text-left">
+            <p className=" font-medium text-blue-950 text-center sm:text-left">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s, when an unknown printer took a galley of

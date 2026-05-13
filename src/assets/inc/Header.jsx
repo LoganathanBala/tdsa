@@ -126,25 +126,25 @@ function Header() {
                       </ul>
                     </a>
                   </li>
-                  <li className="relative flex grow-1 justify-center hover:bg-blue-900 hover:text-white p-2 py-4 cursor-pointer transition border-r-1 border-gray-300 hover:transition-all">
+                  <li className="relative flex grow-1 justify-center cursor-pointer transition border-r-1 border-gray-300 hover:transition-all">
                     <NavLink
                       to="/results"
                       className={({ isActive }) =>
                         isActive
-                          ? "active-link bg-blue-900 text-white text-md font-bold"
-                          : "text-md font-bold text-blue-900"
+                          ? "active-link bg-blue-900 text-white text-md font-bold px-2 py-4"
+                          : "flex grow-1 justify-center text-md font-bold text-blue-900 px-2 py-4 hover:bg-blue-900 hover:text-white"
                       }
                     >
                       Results
                     </NavLink>
                   </li>
-                  <li className="relative flex grow-1 justify-center hover:bg-blue-900 hover:border-blue-900 hover:text-white p-2 py-4 cursor-pointer transition border-r-1 hover:border-r-[1px] border-gray-300 hover:transition-all">
+                 <li className="relative flex grow-1 justify-center cursor-pointer transition border-r-1 border-gray-300 hover:transition-all">
                     <NavLink
                       to="/contact"
                       className={({ isActive }) =>
                         isActive
-                          ? "active-link bg-blue-900 text-white text-md font-bold"
-                          : "text-md font-bold text-blue-900"
+                          ? "active-link bg-blue-900 text-white text-md font-bold px-2 py-4"
+                          : "flex grow-1 justify-center text-md font-bold text-blue-900 px-2 py-4 hover:bg-blue-900 hover:text-white"
                       }
                     >
                       Contact Us
