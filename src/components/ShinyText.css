@@ -1,0 +1,6 @@
+.shiny-text {
+  display: flex;
+}
+span.shiny-text{
+  transform: none;
+}

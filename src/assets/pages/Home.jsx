@@ -80,39 +80,39 @@ function Home() {
           <div className="w-full flex justify-center flex-col px-2 flex-wrap lg:px-4 lg:mt-10 md:gap-4 md:px-2 md:mt-5 md:flex-row ">
             <div className="bg-linear-to-b from-white-500 to-blue-900 w-full flex items-end h-96 md:w-72 lg:w-[23%]">
               <div className="flex items-center flex-col justify-center p-4">
-                <h4 className="text-xl font-bold text">Title</h4>
-                <p className="text-bsae font-medium text-center">
+                <h4 className="text-xl font-bold text-white">Title</h4>
+                <p className="text-bsae font-medium text-center text-white">
                   Lorem Ipsum is simply dummy text of the printing
                 </p>
               </div>
             </div>
             <div className="bg-linear-to-b from-white-500 to-blue-900 w-full flex items-end h-96 md:w-72 lg:w-[23%] ">
               <div className="flex items-center flex-col justify-center p-4">
-                <h4 className="text-xl font-bold text">Title</h4>
-                <p className="text-bsae font-medium text-center">
+                <h4 className="text-xl font-bold text-white">Title</h4>
+                <p className="text-bsae font-medium text-center text-white">
                   Lorem Ipsum is simply dummy text of the printing
                 </p>
               </div>
             </div>
             <div className="bg-linear-to-b from-white-500 to-blue-900 w-full flex items-end h-96 md:w-72 lg:w-[23%]">
               <div className="flex items-center flex-col justify-center p-4">
-                <h4 className="text-xl font-bold text">Title</h4>
-                <p className="text-bsae font-medium text-center">
+                <h4 className="text-xl font-bold text-white">Title</h4>
+                <p className="text-bsae font-medium text-center text-white">
                   Lorem Ipsum is simply dummy text of the printing
                 </p>
               </div>
             </div>
             <div className="bg-linear-to-b from-white-500 to-blue-900 w-full flex items-end h-96 md:w-72 lg:w-[23%]">
               <div className="flex items-center flex-col justify-center p-4">
-                <h4 className="text-xl font-bold text">Title</h4>
-                <p className="text-bsae font-medium text-center">
+                <h4 className="text-xl font-bold text-white">Title</h4>
+                <p className="text-bsae font-medium text-center text-white">
                   Lorem Ipsum is simply dummy text of the printing
                 </p>
               </div>
             </div>
           </div>
           <div className="mr-auto ml-auto w-full text-center my-8">
-            <button className="bg-sky-500 rounded-md text-white  font-medium px-8 py-2 cursor-pointer transition hover:bg-blue-950">
+            <button className="bg-sky-500 rounded-md text-white font-medium px-8 py-2 cursor-pointer transition hover:bg-blue-950">
               Join Us
             </button>
           </div>

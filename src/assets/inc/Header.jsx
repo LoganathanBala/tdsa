@@ -27,12 +27,12 @@ function Header() {
           <div className="flex-row justify-between gap-2 hidden md:flex">
             <div className="logo flex items-center justify-center w-[15%]">
               <a href="/">
-                <img className="w-28" src={tdsaLogo} alt="TDSA Logo" />
+                <img className="w-26" src={tdsaLogo} alt="TDSA Logo" />
               </a>
             </div>
             <div className="flex flex-col ml-auto mr-auto lg:w-[70%] md:w-full">
               <div className="flex bg-blue-900 justify-between items-center py-4 px-8 w-auto">
-                <div className="icon flex gap-1">
+                <div className="icon flex gap-1 text-white">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -47,20 +47,20 @@ function Header() {
                       d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75"
                     />
                   </svg>
-                  <a href="#" className="hover:underline hover:transition-all">
+                  <a href="#" className="hover:underline hover:transition-all text-white">
                     tdsa@gmail.com
                   </a>
                 </div>
                 <div className="flex gap-2 flex-row">
-                  <a href="#" className="hover:underline">
+                  <a href="#" className="hover:underline text-white">
                     {" "}
                     Facebook
                   </a>
-                  <a href="#" className="hover:underline">
+                  <a href="#" className="hover:underline text-white">
                     {" "}
                     Insta
                   </a>
-                  <a href="#" className="hover:underline">
+                  <a href="#" className="hover:underline text-white">
                     {" "}
                     Youtube
                   </a>
@@ -102,8 +102,8 @@ function Header() {
                           </Link>
                         </li>
                         <li className="hover:bg-blue-500 hover:text-white p-2 py-4 cursor-pointer transition hover:transition-all">
-                          <Link to="/banners" className="text-md text-blue-900">
-                            Banners
+                          <Link to="/members" className="text-md text-blue-900">
+                            Members
                           </Link>
                         </li>
                       </ul>
