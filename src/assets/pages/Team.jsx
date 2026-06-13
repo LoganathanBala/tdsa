@@ -76,26 +76,29 @@ function Team() {
             </p>
           </div>
         </div>
+
+        <div className="ml-9 p-10 rounded-lg flex bg-blue-950 w-[95%] m-10 flex-wrap justify-center md:flex-row">
+          <div className="flex justify-center items-center w-1/4 flex-col">
+            <h4 className="text-5xl font-bold text-white">30+</h4>
+            <h6 className="text-md font-semibold text-white">Total Players</h6>
+          </div>
+          <div className="flex justify-center items-center w-1/4 flex-col">
+            <h4 className="text-5xl font-bold text-white">10+</h4>
+            <h6 className="text-md font-semibold text-white">Experience</h6>
+          </div>
+          <div className="flex justify-center items-center w-1/4 flex-col">
+          <h4 className="text-5xl font-bold text-white">80+</h4>
+            <h6 className="text-md font-semibold text-white">Students Trained</h6>
+          </div>
+          <div className="flex justify-center items-center w-1/4 flex-col">
+          <h4 className="text-5xl font-bold text-white">10+</h4>
+            <h6 className="text-md font-semibold text-white">Awards Recevied</h6>
+          </div>
+        </div>
+
       </div>
       
-      <div className="ml-9 p-10 rounded-lg flex bg-blue-950 w-[95%] m-10 flex-wrap justify-center md:flex-row">
-        <div className="flex justify-center items-center w-1/4 flex-col">
-          <h4 className="text-5xl font-bold text-white">30+</h4>
-          <h6 className="text-md font-semibold text-white">Total Players</h6>
-        </div>
-        <div className="flex justify-center items-center w-1/4 flex-col">
-          <h4 className="text-5xl font-bold text-white">10+</h4>
-          <h6 className="text-md font-semibold text-white">Experience</h6>
-        </div>
-        <div className="flex justify-center items-center w-1/4 flex-col">
-         <h4 className="text-5xl font-bold text-white">80+</h4>
-          <h6 className="text-md font-semibold text-white">Students Trained</h6>
-        </div>
-        <div className="flex justify-center items-center w-1/4 flex-col">
-         <h4 className="text-5xl font-bold text-white">10+</h4>
-          <h6 className="text-md font-semibold text-white">Awards Recevied</h6>
-        </div>
-      </div>
+     
       
       
 
