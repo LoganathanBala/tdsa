@@ -9,7 +9,7 @@ import Members from './assets/pages/Members';
 import Gallery from './assets/pages/Gallery';
 import Press from './assets/pages/Press';
 import Results from './assets/pages/Results';
-// import Team from './assets/pages/Team';
+import Team from './assets/pages/Team';
 
 
 function App() {
@@ -26,7 +26,7 @@ function App() {
         <Route path="/press" element={<Press />} /> 
         <Route path="/results" element={<Results />} />        
         <Route path="/contact" element={<Contact />} />
-        {/* <Route path="/team" element={<Team />} /> */}
+        <Route path="/team" element={<Team />} />
       </Routes>
     </Router>
      

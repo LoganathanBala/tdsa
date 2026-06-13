@@ -9,14 +9,6 @@ function Members() {
   return (
     <>
       <Header />
-      
-      {/* <div className="bg-blue-900 opacity-90 relative mt-24 bg-contain h-48 sm:h-[420px] sm:mt-28 sm:bg-cover">  
-        <div className="relative w-full flex justify-center items-center flex-col pt-[12%]">
-              <h1 className="text-white text-2xl font-extrabold uppercase lg:text-5xl md:text-3xl  pb-4 text-shadow-lg/30">
-                Trichirappalli District Board of Mememers
-              </h1>             
-        </div>
-      </div>    */}
       <div className="relative bg-blue-900 mt-24 bg-contain h-48 sm:h-105 sm:mt-28 sm:bg-cover">  
         <div className="about-banner w-full "></div>
             <div className="relative min-h-50 flex justify-center align-middle md:min-h-100 md:items-center">
@@ -194,7 +186,7 @@ function Members() {
             </div>
             <div className="text-center text-blue-900 my-5">
               <h4 className="text-3xl font-extrabold capitalize">K Gurusamy</h4>
-              <h6 className="font-medium capitalize">Sri maruthi silambu koodam</h6>
+              <h6 className="font-medium capitalize">Sri maruthi silamba koodam</h6>
             </div>
           </div> 
           <div className="w-full flex flex-col items-center p-2 border-2 border-blue-900 rounded-md md:w-[23%]">

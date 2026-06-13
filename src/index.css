@@ -210,3 +210,12 @@ path.two {
   opacity: .2;
   position: absolute;
 }
+
+.team-banner{
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  opacity: .2;
+  position: absolute;
+}
