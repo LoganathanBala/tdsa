@@ -39,11 +39,11 @@ function Board() {
           />
 
         <div className="relative w-full flex justify-center items-center">
-            <div className="w-full flex flex-col items-center shadow-2xl rounded-lg md:w-[28%] md:justify-center md:items-center hover:bg-blue-700">
-              <div className="w-3/4">
+            <div className="group w-full flex flex-col items-center shadow-2xl rounded-lg md:w-[28%] md:p-4 md:justify-center md:items-center hover:bg-blue-900">
+              <div className="w-fit">
                 <img className="rounded-4xl" src={President} alt="Poorna Pushkala" />
               </div>
-              <div className="text-center text-blue-900 my-3">
+              <div className="text-center text-blue-900 my-3 group-hover:text-white">
                 <h4 className="text-2xl font-extrabold"><sub className="font-bold text-xs top-0 pr-1">Nadanamamani</sub>A.Poorna Pushkala</h4>
                 <h6 className="font-bold">President</h6>
               </div>
