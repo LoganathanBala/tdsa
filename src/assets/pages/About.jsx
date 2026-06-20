@@ -7,7 +7,7 @@ function About() {
     <>
       <Header />
       
-      <div className="relative bg-blue-900 mt-24 bg-contain h-48 sm:h-[420px] sm:mt-28 sm:bg-cover">  
+      <div className="relative bg-blue-900 mt-24 bg-contain h-56 sm:h-[420px] sm:mt-28 sm:bg-cover">  
         <div className="about-banner w-full "></div>
             <div className="relative min-h-[200px] flex justify-center items-center md:min-h-[400px] ">
               <h1 className="text-white text-2xl font-extrabold uppercase lg:text-5xl md:text-4xl text-shadow-lg/30">About TDSK</h1>
@@ -26,11 +26,11 @@ function About() {
 
      <div className="container px-80 mb-10">
       <h5 className="text-2xl text-center py-8">Image Silder</h5>
-      <div className="flex gap-5 flex-row items-center">
-        <div className="border-2 border-blue-900 rounded-2xl w-90 h-40"></div>
-        <div className="border-2 border-blue-900 rounded-2xl w-90 h-40"></div>
-        <div className="border-2 border-blue-900 rounded-2xl w-90 h-40"></div>
-        <div className="border-2 border-blue-900 rounded-2xl w-90 h-40"></div>
+      <div className="flex gap-5 flex-row items-center flex-wrap">
+        <div className="border-2 border-blue-900 rounded-2xl w-full h-40 md:w-90"></div>
+        <div className="border-2 border-blue-900 rounded-2xl w-full h-40 md:w-90"></div>
+        <div className="border-2 border-blue-900 rounded-2xl w-full h-40 md:w-90"></div>
+        <div className="border-2 border-blue-900 rounded-2xl w-full h-40 md:w-90"></div>
       </div>
      </div>
 

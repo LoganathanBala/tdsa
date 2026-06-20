@@ -24,6 +24,7 @@ function Header() {
     <>
       <header className="block">
         <div className="fixed bg-white w-full top-0 mt-0 mb-0 shadow-2xl z-50 ">
+          {/* Desktop version header */}
           <div className="flex-row justify-between gap-2 hidden md:flex">
             <div className="logo flex items-center justify-center w-[15%]">
               <a href="/">
@@ -269,47 +270,47 @@ function Header() {
                   }
                 >
                   <li className="p-2 pb-1 text-blue-900 hover:bg-blue-900 hover:text-white">
-                    <a href="#" className="text-md font-medium uppercase">
+                    <Link href="/" className="text-md font-medium uppercase">
                       Home
-                    </a>
+                    </Link>
                   </li>
                   <li className="p-2 pb-1">
-                    <a
-                      href="#"
+                    <Link
+                      to="/about"
                       className="text-blue-900 text-md font-medium uppercase"
                     >
                       About Us
-                    </a>
+                    </Link>
                   </li>
                   <li className="p-2 pb-1">
-                    <a
-                      href="#"
+                    <Link
+                      to="/members"
                       className="text-blue-900 text-md font-medium uppercase"
                       onClick={subMenu}
                     >
                       Members {issubOpen ? "Downarrow" : "upArrow"}{" "}
-                    </a>
+                    </Link>
                     <ul className={issubOpen ? "show-menu" : "hidden"}>
                       <li className="p-2 pb-1">
-                        <a
-                          href="#"
+                        <Link
+                          to="/board"
                           className="text-blue-900 text-md font-medium uppercase"
                         >
                           Board of Members
-                        </a>
+                        </Link>
                       </li>
                       <li className="p-2 pb-1">
-                        <a
-                          href="#"
+                        <Link
+                          to="/members"
                           className="text-blue-900 text-md font-medium uppercase"
                         >
                           Members
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </li>
                   <li className="p-2 pb-1">
-                    <a
+                    <Link
                       href="#"
                       className="text-blue-900 text-md font-medium uppercase"
                       onClick={subMediaMenu}
@@ -317,47 +318,47 @@ function Header() {
                       Media {isMediaOpen ? "Downarrow" : "upArrow"}
                       <ul className={isMediaOpen ? "show-menu" : "hidden"}>
                         <li className="p-2 pb-1">
-                          <a
-                            href="#"
+                          <Link
+                            to="/press"
                             className="text-blue-900 text-md font-medium uppercase"
                           >
                             Press
-                          </a>
+                          </Link>
                         </li>
                         <li className="p-2 pb-1">
-                          <a
-                            href="#"
+                          <Link
+                           to="/gallery"
                             className="text-blue-900 text-md font-medium uppercase"
                           >
                             Gallery
-                          </a>
+                          </Link>
                         </li>
                       </ul>
-                    </a>
+                    </Link>
                   </li>
                   <li className="p-2 pb-1">
-                    <a
-                      href="#"
+                    <Link
+                      to="/result"
                       className="text-blue-900 text-md font-medium uppercase"
                     >
                       Result
-                    </a>
+                    </Link>
                   </li>
                   <li className="p-2 pb-1">
-                    <a
-                      href="#"
+                    <Link
+                      to="/join-us"
                       className="text-blue-900 text-md font-medium uppercase"
                     >
                       Join Us
-                    </a>
+                    </Link>
                   </li>
                   <li className="p-2 pb-4 border-b-2 border-gray-700">
-                    <a
-                      href="./pages/contact.jsx"
+                    <Link
+                      to="/contact"
                       className="text-blue-900 text-md font-medium uppercase"
                     >
                       Contact Us
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>

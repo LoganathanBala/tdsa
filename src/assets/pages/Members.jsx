@@ -15,12 +15,12 @@ function Members() {
       <Header />
       <div className="relative bg-blue-900 mt-24 bg-contain h-48 sm:h-105 sm:mt-28 sm:bg-cover">  
         <div className="about-banner w-full "></div>
-            <div className="relative min-h-50 flex justify-center align-middle md:min-h-100 md:items-center">
-              <h1 className="text-white text-center leading-16 text-2xl font-extrabold uppercase lg:text-5xl md:text-4xl text-shadow-lg/30">Trichirappalli District Silambatta <br/>Kazhgam Mememers</h1>
+            <div className="relative min-h-50 flex justify-center items-center align-middle md:min-h-100 md:items-center">
+              <h1 className="text-white text-center leading-10 md:leading-16 text-2xl font-extrabold uppercase lg:text-5xl md:text-4xl text-shadow-lg/30">Trichirappalli District Silambatta <br/>Kazhgam Mememers</h1>
             </div>
       </div>
 
-      <div className="relative w-full flex gap-5 flex-col justify-start flex-wrap my-10 pl-14 md:flex-row">
+      <div className="relative w-full flex gap-5 flex-col justify-start p-4 flex-wrap my-10 md:pl-14 md:flex-row">
         
             {clubpeople.map((club) => (
             <div

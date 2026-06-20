@@ -17,13 +17,13 @@ function Board() {
               </h1>             
         </div>
       </div>    */}
-      <div className="relative bg-blue-900 mt-24 bg-contain h-48 sm:h-105 sm:mt-28 sm:bg-cover">  
+      <div className="relative bg-blue-900 mt-24 bg-contain h-56 sm:h-105 sm:mt-28 sm:bg-cover">  
         <div className="about-banner w-full "></div>
-            <div className="relative min-h-50 flex justify-center align-middle md:min-h-100 md:items-center">
-              <h1 className="text-white text-center leading-16 text-2xl font-extrabold uppercase lg:text-5xl md:text-4xl text-shadow-lg/30">Trichirappalli District Silambatta Kazhgam <br/> Board of Mememers</h1>
+            <div className="relative min-h-50 flex items-center justify-center align-middle md:min-h-100 md:items-center">
+              <h1 className="text-white text-center pt-10 leading-10 text-2xl font-extrabold uppercase lg:text-5xl md:text-4xl text-shadow-lg/30 md:leading-16">Trichirappalli District Silambatta Kazhgam <br/> Board of Mememers</h1>
             </div>
       </div>    
-      <div className="bg-gray-200">
+      <div className="bg-gray-100">
           <ShinyText
             text="LEAD TEAM"
             speed={1.8}

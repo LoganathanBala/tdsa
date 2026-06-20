@@ -136,7 +136,7 @@ function Team() {
             />
               </div>
               <div className="relative min-h-50 flex justify-center align-middle md:min-h-100 md:items-center">
-                  <h1 className="text-white text-center leading-16 text-2xl font-extrabold uppercase lg:text-5xl md:text-4xl text-shadow-lg/30">
+                  <h1 className="text-white text-center leading-10 md:leading-16 text-2xl font-extrabold uppercase lg:text-5xl md:text-4xl text-shadow-lg/30">
                     {clubList.clubname}
                   </h1>
               </div>
